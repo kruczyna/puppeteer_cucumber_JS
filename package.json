@@ -1,0 +1,28 @@
+{
+  "name": "pptr-cucumber",
+  "version": "1.0.0",
+  "description": "puppeteer with cucumberJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js -f json:cucumber_report.json",
+    "generate:report": "node report.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kruczyna/pptr-cucumber-learning.git"
+  },
+  "keywords": [
+    "puppeteer",
+    "gherkin",
+    "cucumber",
+    "javascript"
+  ],
+  "author": "Victoria Kruczek",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "cucumber": "^6.0.5",
+    "cucumber-html-reporter": "^5.2.0",
+    "puppeteer": "^3.3.0"
+  }
+}
